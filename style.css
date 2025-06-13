@@ -62,7 +62,7 @@ body {
 section {
     position: relative;
     min-height: 100vh;
-    background: url(./assets/g3bf8dece719c505d4221cc87dd5f6040b5f927112575f8406e2980920e181facd736b3d53fca4928da5974ea5c59aee086a7b531cdf99acd90e6f7f90633c3c0_1280.jpeg);
+    background: url(./assets/image-02.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -92,7 +92,7 @@ section {
     font-size: 3.5em;
     font-weight: 900;
     letter-spacing: 0em;
-    background: url(./assets/g5442f655e427a7701da24f933be2aa33db7ddad3124d917c36e9116d1af98b67665de6fccca1f9e4702e18242d465f9b0589bd45d172c0b1cf67e3f766067f25_1280.jpeg);
+    background: url(./assets/image-02.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-clip: text;
