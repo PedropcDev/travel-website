@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Destino - Viagens Incríveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layer">
+        <img src="./assets/plane.png" class="plane">
+        <div class="travel-info">Explore destinos incríveis pelo mundo</div>
+    </div>
+
+    <section></section>
+    <div class="text">
+        <h2>Bem-vindo<br><span>Escolha para onde ir</span></h2>
+    </div>
+
+    <section class="destinations">
+        <div class="destination-container">
+            <div class="destination-card">
+                <img src="./assets/g3bf8dece719c505d4221cc87dd5f6040b5f927112575f8406e2980920e181facd736b3d53fca4928da5974ea5c59aee086a7b531cdf99acd90e6f7f90633c3c0_1280.jpg" alt="Lago na Islândia">
+                <div class="destination-info">
+                    <h3>Islândia</h3>
+                    <p>Explore os magníficos lagos e a natureza espetacular</p>
+                    <a href="#" class="btn">Ver detalhes</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="./assets/g5442f655e427a7701da24f933be2aa33db7ddad3124d917c36e9116d1af98b67665de6fccca1f9e4702e18242d465f9b0589bd45d172c0b1cf67e3f766067f25_1280.jpeg" alt="Monte Fuji no Japão">
+                <div class="destination-info">
+                    <h3>Japão</h3>
+                    <p>Conheça o Monte Fuji e a rica cultura japonesa</p>
+                    <a href="#" class="btn">Ver detalhes</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="./assets/gb9c1ac4ccc541b10a2f71d6597b278cd8b0161f6a65d758d5a62e1b0a7e5709f13a5fac712eed873e37c497dbcfad9ad871ba13a94d67ab5d0e0b981df638307_1280.jpg" alt="Lago nos Alpes">
+                <div class="destination-info">
+                    <h3>Alpes</h3>
+                    <p>Aventure-se pelos lagos e montanhas deslumbrantes</p>
+                    <a href="#" class="btn">Ver detalhes</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="./assets/ga8d3ec97cc99126907410dbc6f4ca69139e85b40cdf878e8bb538c28584902f987da14ca35ea57c9bf74fc16bdb56549c62e4718a1c31a95acc8ef5e364b6455_1280.jpg" alt="Deserto de Wadi Rum">
+                <div class="destination-info">
+                    <h3>Jordânia</h3>
+                    <p>Deserto de Wadi Rum - uma paisagem única no mundo</p>
+                    <a href="#" class="btn">Ver detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="map-section">
+        <div class="map-container">
+            <img src="./assets/gfc423c1969e1a6f79a29397108333773dbab62e73d201e3b0c49e6ba6bc34adae47fa1d39cda4baa69f900b62b69c8f3cf2aec5a822a5aae2273bc8b29878301_640.jpg" alt="Mapa Mundi">
+            <div class="map-overlay">
+                <h3>Escolha seu próximo destino</h3>
+                <p>Temos opções em todos os continentes</p>
+                <a href="#" class="btn map-btn">Ver todos os destinos</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>Somos especialistas em viagens personalizadas para destinos espetaculares em todo o mundo.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@viagens.com</p>
+                <p>Telefone: (11) 99999-9999</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Viagens Incríveis. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+        let layer = document.querySelector('.layer');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            layer.style.left = value*2+'px';
+        });
+    </script>
+</body>
+</html>
